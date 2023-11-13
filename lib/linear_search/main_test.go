@@ -7,7 +7,7 @@ import (
 )
 
 func TestHappy(t *testing.T) {
-	expects := []int{1, 3, 4, 69, 71, 81, 90, 99, 420, 1337, 69420}
+	haystack := []int{1, 3, 4, 69, 71, 81, 90, 99, 420, 1337, 69420}
 
 	tests := []struct {
 		target int
@@ -22,7 +22,7 @@ func TestHappy(t *testing.T) {
 	}
 
 	for _, tc := range tests {
-		got := linear_search.LinearSearch(expects, tc.target)
+		got := linear_search.LinearSearch(haystack, tc.target)
 
 		if got != tc.want {
 			t.Errorf("Expected %t from %d, got %t", tc.want, tc.target, got)
