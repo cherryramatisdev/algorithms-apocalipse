@@ -3,7 +3,7 @@ package binary_search_test
 import (
 	"testing"
 
-	"github.com/cherryramatisdev/algorithms-apocalipse/lib/binary_search"
+	"github.com/cherryramatisdev/algorithms-apocalipse/internal/algorithms/binary_search"
 )
 
 func TestHappy(t *testing.T) {

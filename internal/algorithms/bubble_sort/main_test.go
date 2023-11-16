@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cherryramatisdev/algorithms-apocalipse/lib/bubble_sort"
+	"github.com/cherryramatisdev/algorithms-apocalipse/internal/algorithms/bubble_sort"
 )
 
 func TestHappy(t *testing.T) {

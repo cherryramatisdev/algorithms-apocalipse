@@ -3,7 +3,7 @@ package linear_search_test
 import (
 	"testing"
 
-	"github.com/cherryramatisdev/algorithms-apocalipse/lib/linear_search"
+	"github.com/cherryramatisdev/algorithms-apocalipse/internal/algorithms/linear_search"
 )
 
 func TestHappy(t *testing.T) {

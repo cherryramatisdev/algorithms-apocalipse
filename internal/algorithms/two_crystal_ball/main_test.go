@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cherryramatisdev/algorithms-apocalipse/lib/two_crystal_ball"
+	"github.com/cherryramatisdev/algorithms-apocalipse/internal/algorithms/two_crystal_ball"
 )
 
 func TestHappy(t *testing.T) {
