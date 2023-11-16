@@ -144,6 +144,7 @@ func (list *LinkedList[T]) Prepend(item T) error {
 	return nil
 }
 
+// Get returns the item at the specified index in the linked list
 func (list *LinkedList[T]) Get(index int) (T, error) {
 	var zero_value T
 	if index < 0 || index >= list.Length() {
